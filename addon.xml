@@ -1,0 +1,25 @@
+<?xml version="0.1" encoding="UTF-8"?>
+<addon
+    id="plugin.video.touchandgo"
+    version="0.0.1"
+    name="TouchAndGo"
+    provider-name="Gilgamezh, L1pe">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <website>https://github.com/touchandgo-devs/</website>
+    <source>https://github.com/touchandgo-devs/</source>
+    <email>mail@gilgamezh.me</email>
+    <forum></forum>
+    <summary lang="en"> watch series and movies magically </summary>
+    <description lang="en">A python app and library to watch series and movies magically</description>
+  </extension>
+</addon>
